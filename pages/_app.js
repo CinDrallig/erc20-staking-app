@@ -2,7 +2,7 @@ import { ThirdwebProvider } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 
 // This is the chain your dApp will work on.
-const activeChain = "pulsechain";
+const activeChain = "Pulsechain";
 
 function MyApp({ Component, pageProps }) {
   return (
