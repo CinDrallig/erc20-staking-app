@@ -2,7 +2,7 @@ import { Pulsechain } from "@thirdweb-dev/chains";
 import { ThirdwebProvider} from "@thirdweb-dev/react";
 import "../styles/globals.css";
 
-function App() {
+function App({ Component, pageProps }) {
   return (
     <ThirdwebProvider 
       activeChain={Pulsechain} 
