@@ -65,10 +65,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to staking app!</h1>
+        <h1 className={styles.title}>Wolf Cola Co HAMS Staking </h1>
 
         <p className={styles.description}>
-          Stake certain amount and get reward tokens back!
+          Stake $HAMS, Earn $WOOF!
         </p>
 
         <div className={styles.connect}>
@@ -98,7 +98,7 @@ export default function Home() {
               alert("Tokens staked successfully!");
             }}
           >
-            Stake!
+            Stake
           </Web3Button>
 
           <Web3Button
@@ -112,7 +112,7 @@ export default function Home() {
               alert("Tokens unstaked successfully!");
             }}
           >
-            Unstake!
+            Unstake
           </Web3Button>
 
           <Web3Button
@@ -123,18 +123,18 @@ export default function Home() {
               alert("Rewards claimed successfully!");
             }}
           >
-            Claim rewards!
+            Claim rewards
           </Web3Button>
         </div>
 
         <div className={styles.grid}>
           <a className={styles.card}>
-            <h2>Stake token balance</h2>
+            <h2>HAMS balance</h2>
             <p>{stakingTokenBalance?.displayValue}</p>
           </a>
 
           <a className={styles.card}>
-            <h2>Reward token balance</h2>
+            <h2>WOOF balance</h2>
             <p>{rewardTokenBalance?.displayValue}</p>
           </a>
 
