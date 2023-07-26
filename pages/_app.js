@@ -7,7 +7,7 @@ function App() {
     <ThirdwebProvider 
       activeChain={Pulsechain} 
       clientId="fb5b78b67cf8fd462d6adb08086cc98b">
-      <Component />
+        <Component {...pageProps} />
     </ThirdwebProvider>
   )
 }
