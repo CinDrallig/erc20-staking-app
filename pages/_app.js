@@ -1,17 +1,17 @@
 import { Pulsechain } from "@thirdweb-dev/chains";
-import { ThirdwebProvider, useContract } from "@thirdweb-dev/react";
+import { ThirdwebProvider } from "@thirdweb-dev/react";
+import "../styles/globals.css";
 
-function App() {
+// This is the chain your dApp will work on.
+const activeChain = "Pulsechain";
+
+function MyApp({ Component, pageProps }) {
   return (
-    <ThirdwebProvider 
-      activeChain={ Pulsechain } 
-      clientId="fb5b78b67cf8fd462d6adb08086cc98b" // You can get a client id from dashboard settings
-    >
-      <Component />
+    <ThirdwebProvider activeChain={activeChain}
+    clientId="fb5b78b67cf8fd462d6adb08086cc98b">
+      <Component {...pageProps} />
     </ThirdwebProvider>
-  )
+  );
 }
 
-function Component() {
-  const { contract, isLoading } = useContract("0x1D4F18d768755C19E036055fC5E597AC6740088a");
-}
+export default MyApp;
