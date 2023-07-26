@@ -12,8 +12,4 @@ function App() {
   )
 }
 
-function Component() {
-  const { contract, isLoading } = useContract("0x1D4F18d768755C19E036055fC5E597AC6740088a");
-}
-
 export default App;
