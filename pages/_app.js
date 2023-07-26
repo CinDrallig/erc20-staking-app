@@ -9,7 +9,7 @@ function App() {
       clientId="fb5b78b67cf8fd462d6adb08086cc98b">
       <Component {...pageProps} />
     </ThirdwebProvider>
-  )
+  );
 }
 
 export default App;
