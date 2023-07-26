@@ -1,5 +1,5 @@
 import { Pulsechain } from "@thirdweb-dev/chains";
-import { ThirdwebProvider, useContract } from "@thirdweb-dev/react";
+import { ThirdwebProvider} from "@thirdweb-dev/react";
 import "../styles/globals.css";
 
 function App() {
