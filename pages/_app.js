@@ -5,9 +5,8 @@ import "../styles/globals.css";
 function App() {
   return (
     <ThirdwebProvider 
-      activeChain={ Pulsechain } 
-      clientId="fb5b78b67cf8fd462d6adb08086cc98b" // You can get a client id from dashboard settings
-    >
+      activeChain={Pulsechain} 
+      clientId="fb5b78b67cf8fd462d6adb08086cc98b">
       <Component />
     </ThirdwebProvider>
   )
