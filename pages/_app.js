@@ -1,16 +1,20 @@
-import { ThirdwebProvider } from "@thirdweb-dev/react";
-import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import { ChakraProvider } from "@chakra-ui/react";
+import Navbar from "../components/Navbar";
 import { Pulsechain } from "@thirdweb-dev/chains";
+import { ThirdwebProvider, useContract } from "@thirdweb-dev/react";
 
-// This is the chain your dApp will work on.
-const activeChain = "pulsechain";
-
-function MyApp({ Component, pageProps }) {
+function App() {
   return (
-    <ThirdwebProvider activeChain={activeChain}>
-      <Component {...pageProps} />
+    <ThirdwebProvider 
+      activeChain={ Pulsechain } 
+      clientId="fb5b78b67cf8fd462d6adb08086cc98b" // You can get a client id from dashboard settings
+    >
+      <Component />
     </ThirdwebProvider>
-  );
+  )
 }
 
-export default MyApp;
+function Component() {
+  const { contract, isLoading } = useContract("0x1D4F18d768755C19E036055fC5E597AC6740088a");
+}
