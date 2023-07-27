@@ -69,7 +69,9 @@ export default function Home() {
         <p className={styles.description}>
           Stake $HAMS, Earn $WOOF!
         </p>
-        <p href="https://app.pulsex.com/swap?outputCurrency=0x13342624b9D3049fB8Ef0a15b803f704864Bb844">$HAMS on Pulsechain OFFICIAL CONTRACT333!</p>
+        <p className={styles.description}> 
+        href="https://app.pulsex.com/swap?outputCurrency=0x13342624b9D3049fB8Ef0a15b803f704864Bb844">$HAMS on Pulsechain OFFICIAL CONTRACT!
+        </p>
 
         <div className={styles.connect}>
           <ConnectWallet />
