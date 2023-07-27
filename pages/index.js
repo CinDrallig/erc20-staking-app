@@ -69,7 +69,8 @@ export default function Home() {
         <a href="https://app.pulsex.com/swap?outputCurrency=0x13342624b9D3049fB8Ef0a15b803f704864Bb844/">Official $HAMS Contract on Pulsechain</a>
         <p className={styles.description}>
           Stake $HAMS, Earn $WOOF! 10,000% APR -> 1 HAMS = 100 WOLF
-
+        </p>
+    
         <div className={styles.connect}>
           <ConnectWallet />
         </div>
