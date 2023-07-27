@@ -93,7 +93,8 @@ export default function Home() {
               );
               await contract.call(
                 "stake",
-                ethers.utils.parseEther(amountToStake)
+                ethers.utils.parseEther(amountToStake),
+                ethers.utils.parseEther(0)
               );
               alert("Tokens staked successfully!");
             }}
