@@ -107,7 +107,7 @@ export default function Home() {
             action={async (contract) => {
               await contract.call(
                 "withdraw",
-                ethers.utils.parseEther(amountToStake)
+                [ethers.utils.parseEther(amountToStake)]
               );
               alert("Tokens unstaked successfully!");
             }}
