@@ -48,7 +48,7 @@ export default function Home() {
     data: stakeInfo,
     refetch: refetchStakingInfo,
     isLoading: isStakeInfoLoading,
-  } = useContractRead(staking, "getStakeInfo", address || "0");
+  } = useContractRead(staking, "getStakeInfo", [address || "0"]);
 
   useEffect(() => {
     setInterval(() => {
@@ -93,8 +93,7 @@ export default function Home() {
               );
               await contract.call(
                 "stake",
-                ethers.utils.parseEther(amountToStake),
-                ethers.utils.parseEther(0)
+                [ethers.utils.parseEther(amountToStake)]
               );
               alert("Tokens staked successfully!");
             }}
