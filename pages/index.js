@@ -70,7 +70,7 @@ export default function Home() {
         <p className={styles.description}>
           Stake $HAMS, Earn $WOOF!
         </p>
-        <a 840,000% APR ➡️ 1 🐹  = 24 🐺 EVERY DAY! </a>
+        <a 840000% APR ➡️ 1 🐹  = 24 🐺 EVERY DAY! </a>
     
         <div className={styles.connect}>
           <ConnectWallet />
