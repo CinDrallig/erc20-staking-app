@@ -68,7 +68,7 @@ export default function Home() {
         <h1 className={styles.title}>Wolf Cola Co RAT Staking </h1>
         <a href="https://app.pulsex.com/swap?outputCurrency=0x393339124B08E7ABAC055C366754f1C9050252Ab/">Official $RAT Contract on Pulsechain</a>
         <p className={styles.description}>
-          Stake $RAT, Earn $WOOF! 10,000% APR ➡️ 1 RAT = 100 WOLF
+          Stake $RAT, Earn $WOOF! 432,000% APR ➡️ 1 🐀  = 12 🐺 EVERY DAY!
         </p>
     
         <div className={styles.connect}>
