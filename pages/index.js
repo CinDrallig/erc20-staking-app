@@ -146,7 +146,7 @@ export default function Home() {
           </a>
 
           <a className={styles.card}>
-            <h2>Current reward</h2>
+            <h2>$WOOF Reward</h2>
             <p>
               {stakeInfo && ethers.utils.formatEther(stakeInfo[1].toString())}
             </p>
