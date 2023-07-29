@@ -68,8 +68,9 @@ export default function Home() {
         <h1 className={styles.title}>Wolf Cola Co HAMS Staking </h1>
         <a href="https://app.pulsex.com/swap?outputCurrency=0x13342624b9D3049fB8Ef0a15b803f704864Bb844/">Official $HAMS Contract on Pulsechain</a>
         <p className={styles.description}>
-          Stake $HAMS, Earn $WOOF! 840,000% APR ➡️ 1 🐹  = 24 🐺 EVERY DAY!
+          Stake $HAMS, Earn $WOOF!
         </p>
+        <a 840,000% APR ➡️ 1 🐹  = 24 🐺 EVERY DAY! </a>
     
         <div className={styles.connect}>
           <ConnectWallet />
