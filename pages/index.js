@@ -71,7 +71,7 @@ export default function Home() {
           Stake $HAMS, Earn $WOOF!
         </p>
         <a className={styles.description}>
-          840000% APR ➡️ 1 🐹  = 24 🐺 EVERY DAY! 
+          🐹 840000% APR 🐺
         </a>
     
         <div className={styles.connect}>
