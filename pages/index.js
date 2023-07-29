@@ -71,7 +71,7 @@ export default function Home() {
           Stake $RAT, Earn $WOOF!
         </p>
         <a className={styles.description}>
-          432000% APR ➡️ 1 🐀  = 12 🐺 EVERY DAY! 
+          🐀 432000% APR 🐺
         </a>
     
         <div className={styles.connect}>
