@@ -127,20 +127,6 @@ export default function Home() {
           </Web3Button>
         </div>
 
-        <Web3Button
-            className={styles.button}
-            contractAddress={stakingContractAddress}
-            action={async (contract) => {
-              await contract.call(
-                "withdrawRewardTokens",
-                [ethers.utils.parseEther(amountToStake)]
-              );
-              alert("Rewards claimed successfully!");
-            }}
-          >
-            WithdrawRewards
-          </Web3Button>
-
         <div className={styles.grid}>
           <a className={styles.card}>
             <h2>HAMS balance</h2>
