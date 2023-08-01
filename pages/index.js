@@ -71,7 +71,7 @@ export default function Home() {
           Stake $SONIC, Earn $WOOF!
         </p>
         <a className={styles.description}>
-          🐹 840000% APR 🐺
+          🦔 210000% APR 🐺
         </a>
     
         <div className={styles.connect}>
