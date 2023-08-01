@@ -71,7 +71,7 @@ export default function Home() {
           Stake $$RABBIT, Earn $WOOF!
         </p>
         <a className={styles.description}>
-          🐹 840000% APR 🐺
+          🐰 280000% APR 🐺
         </a>
     
         <div className={styles.connect}>
