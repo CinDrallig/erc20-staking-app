@@ -66,7 +66,7 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>Wolf Cola Co RABBIT Staking </h1>
-        <a href="https://app.pulsex.com/swap?outputCurrency=0x13342624b9D3049fB8Ef0a15b803f704864Bb844/">Official $RABBIT Contract on Pulsechain</a>
+        <a href="https://app.pulsex.com/swap?outputCurrency=0x59c9fD9f2ceE78Ae2B422423E8a52F700b04eb7e/">Official $RABBIT Contract on Pulsechain</a>
         <p className={styles.description}>
           Stake $$RABBIT, Earn $WOOF!
         </p>
