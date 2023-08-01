@@ -65,10 +65,10 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>Wolf Cola Co RABBIT Staking </h1>
-        <a href="https://app.pulsex.com/swap?outputCurrency=0x59c9fD9f2ceE78Ae2B422423E8a52F700b04eb7e/">Official $RABBIT Contract on Pulsechain</a>
+        <h1 className={styles.title}>Wolf Cola Co RABBITS Staking </h1>
+        <a href="https://app.pulsex.com/swap?outputCurrency=0x59c9fD9f2ceE78Ae2B422423E8a52F700b04eb7e/">Official $RABBITSS Contract on Pulsechain</a>
         <p className={styles.description}>
-          Stake $$RABBIT, Earn $WOOF!
+          Stake $$RABBITSS, Earn $WOOF!
         </p>
         <a className={styles.description}>
           🐰 280000% APR 🐺
@@ -132,7 +132,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a className={styles.card}>
-            <h2>RABBIT balance</h2>
+            <h2>RABBITS balance</h2>
             <p>{stakingTokenBalance?.displayValue}</p>
           </a>
 
