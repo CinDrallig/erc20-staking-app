@@ -65,13 +65,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>Wolf Cola Co HAMS Staking </h1>
-        <a href="https://app.pulsex.com/swap?outputCurrency=0x13342624b9D3049fB8Ef0a15b803f704864Bb844/">Official $HAMS Contract on Pulsechain</a>
+        <h1 className={styles.title}>Wolf Cola Co pDAI Staking </h1>
+        <a href="https://scan.pulsechain.com/token/0x6B175474E89094C44Da98b954EedeAC495271d0F">Official $pDAI Contract on Pulsechain</a>
         <p className={styles.description}>
-          Stake $HAMS, Earn $WOOF!
+          Stake $pDAI, Earn $WOOF!
         </p>
         <a className={styles.description}>
-          🐹 840000% APR 🐺
+          💲175200% APR 🐺
         </a>
     
         <div className={styles.connect}>
@@ -132,7 +132,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a className={styles.card}>
-            <h2>HAMS balance</h2>
+            <h2>pDAI balance</h2>
             <p>{stakingTokenBalance?.displayValue}</p>
           </a>
 
