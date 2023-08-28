@@ -71,7 +71,7 @@ export default function Home() {
           Stake $eHEX, Earn $WOOF!
         </p>
         <a className={styles.description}>
-          💲175200% APR 🐺
+          ⬡ 175200% APR 🐺
         </a>
     
         <div className={styles.connect}>
